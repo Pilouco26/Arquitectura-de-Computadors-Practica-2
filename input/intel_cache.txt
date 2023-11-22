@@ -1,0 +1,16 @@
+-cache:dl1 dl1:64:64:8:l
+-cache:il1 il1:64:64:8:l
+-cache:dl2 ul2:1024:64:16:l
+-fetch:ifqsize 8
+-decode:width 6
+-issue:width 12
+-commit:width 8
+-ruu:size 512
+-lsq:size 256
+-mem:lat 40 2
+-mem:width 64
+-res:ialu 5
+-res:imult 2
+-res:fpalu 3
+-res:fpmult 2
+-res:memport 12

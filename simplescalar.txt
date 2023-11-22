@@ -1,0 +1,2 @@
+-mem:lat 300 2
+-mem:width 32
